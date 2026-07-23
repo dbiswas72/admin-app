@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin App - Item Management</h1>
+        
+        <div class="add-section">
+            <h2>Add New Item</h2>
+            <form id="addItemForm">
+                <input type="text" id="itemName" placeholder="Item Name" required>
+                <input type="text" id="itemDescription" placeholder="Item Description">
+                <button type="submit">Add Item</button>
+            </form>
+        </div>
+
+        <div class="items-section">
+            <h2>Items List</h2>
+            <div id="itemsList"></div>
+        </div>
+
+        <div id="notification" class="notification"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
