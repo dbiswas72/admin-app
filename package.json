@@ -1,0 +1,14 @@
+{
+  "name": "admin-app",
+  "version": "1.0.0",
+  "description": "Admin App trial visit schedule",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
